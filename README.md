@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Product List with Cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación web responsive de una lista de productos con carrito de compras, desarrollada con **React, Vite y Tailwind CSS**.
 
-## Available Scripts
+Este proyecto está basado en el desafío **Product List with Cart** de Frontend Mentor.
 
-In the project directory, you can run:
+## 🚀 Demo
 
-### `npm start`
+[Ver proyecto en línea]()
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologías utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React
+* Vite
+* Tailwind CSS
+* JavaScript
+* HTML5
+* CSS3
 
-### `npm test`
+## ✨ Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Diseño responsive para dispositivos móviles, tablets y escritorio.
+* Visualización de productos con imágenes adaptadas a diferentes tamaños de pantalla.
+* Añadir productos al carrito.
+* Incrementar y disminuir la cantidad de productos.
+* Eliminar productos del carrito.
+* Cálculo automático del total.
+* Gestión del estado del carrito mediante React Context.
+* Uso de imágenes optimizadas en formato WebP.
 
-### `npm run build`
+## 📱 Diseño responsive
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La interfaz se adapta a diferentes tamaños de pantalla:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* 📱 Móvil
+* 📲 Tablet
+* 💻 Escritorio
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Instalación
 
-### `npm run eject`
+Clona el repositorio:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone 
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ingresa a la carpeta del proyecto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd product-list
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Instala las dependencias:
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Inicia el servidor de desarrollo:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run dev
+```
 
-### Code Splitting
+Vite mostrará en la terminal la dirección local donde podrás visualizar la aplicación.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📦 Compilación para producción
 
-### Analyzing the Bundle Size
+Para generar la versión de producción:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run build
+```
 
-### Making a Progressive Web App
+Para visualizar localmente la versión generada:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run preview
+```
 
-### Advanced Configuration
+## 🎨 Diseño
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+El proyecto fue desarrollado a partir de un desafío de Frontend Mentor, utilizando sus diseños y recursos como referencia para reproducir la interfaz.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Durante el desarrollo, el proyecto fue migrado de **Create React App a Vite** y actualizado a **Tailwind CSS 4**.
