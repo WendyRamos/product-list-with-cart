@@ -6,7 +6,7 @@ Este proyecto está basado en el desafío **Product List with Cart** de Frontend
 
 ## 🚀 Demo
 
-[Ver proyecto en línea]()
+[Ver proyecto en línea](https://product-list-with-cart-gamma-five.vercel.app/)
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -41,7 +41,7 @@ La interfaz se adapta a diferentes tamaños de pantalla:
 Clona el repositorio:
 
 ```bash
-git clone 
+git clone https://github.com/WendyRamos/product-list-with-cart.git
 ```
 
 Ingresa a la carpeta del proyecto:
